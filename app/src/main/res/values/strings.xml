@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">SavoraAPP</string>
+    <color name="ic_sabora_background">#4A4A4A</color>
+
+    <string name="Registro">Registro</string>
+    <string name="Bnv">Hola! un gusto verte de nuevo.</string>
+    <string name="Contra">Contraseña</string>
+    <string name="Ej">Ejemplo</string>
+    <string name="ConContra">Confirmar contraseña</string>
+    <string name="EjC">**********</string>
+    <string name="Login">Ingresar</string>
+    <string name="Correo">Correo electrónico</string>
+    <string name="CorreoEJ">ejemplo123@gmail.com</string>
+    <string name="Usuario">Usuario</string>
+
+
+</resources>

@@ -1,0 +1,55 @@
+gitignore
+# IntelliJ / Android Studio module files
+*.iml
+
+# Gradle
+.gradle/
+build/
+local.properties
+
+# IDE-specific files
+# Ignora la mayoría de los archivos de configuración del IDE específicos del usuario.
+# Los archivos importantes de .idea (como runConfigurations si los compartes)
+# se pueden añadir explícitamente con !.idea/runConfigurations/
+.idea/
+
+# Mac OS specific
+.DS_Store
+
+# Captures (Screenshots, etc. from Android Studio)
+captures/
+
+# External native build folder
+.externalNativeBuild/
+
+# C++ Toolchain
+.cxx/
+
+# Built application files
+*.apk
+*.aab
+*.ap_
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Profiler ATrace data
+*.trace
+
+# Lint results
+lint-results-*.html
+lint-results-*.xml
+
+# Log files
+*.log
+
+# Si tienes archivos que estaban en tu .gitignore original y no están aquí,
+# y crees que deben ser ignorados, mantenlos. Por ejemplo:
+# /.idea/modules.xml # Si prefieres ser explícito
+# /.idea/workspace.xml
+# /.idea/navEditor.xml
+# /.idea/assetWizardSettings.xml
+# (Aunque .idea/ debería cubrir estos, la explicitud no hace daño)
