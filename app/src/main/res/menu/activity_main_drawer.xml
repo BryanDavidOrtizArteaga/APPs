@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_inicio"
+            android:icon="@drawable/outline_restaurant_24"
+            android:title="@string/MIS" />
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/icono_nueva_reserva"
+            android:title="@string/NuevaReserva" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/icono_reservas"
+            android:title="@string/Reservas" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/icono_menu"
+            android:title="@string/MenuDigital" />
+
+    </group>
+
+    <group android:id="@+id/grupo_acciones_inferiores">
+        <item
+            android:id="@+id/CerrarSesion"
+            android:icon="@drawable/icono_salir"
+            android:title="@string/CerrarSesion"/>
+    </group>
+
+</menu>

@@ -1,13 +1,13 @@
 {
   "project_info": {
-    "project_number": "1063284817513",
-    "project_id": "sabora-da32e",
-    "storage_bucket": "sabora-da32e.firebasestorage.app"
+    "project_number": "751786793977",
+    "project_id": "saboraapp-c2f92",
+    "storage_bucket": "saboraapp-c2f92.firebasestorage.app"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:1063284817513:android:1d6c7032a795cfbb5becf8",
+        "mobilesdk_app_id": "1:751786793977:android:abf0197c5375763775bb28",
         "android_client_info": {
           "package_name": "com.example.savoraapp"
         }
@@ -15,7 +15,7 @@
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyDYUaZzaPiZ7jYUACM2D5KYmcVHEDJUG6w"
+          "current_key": "AIzaSyD26VrKawGSdLiKeWL209rSbu9Mml27DFU"
         }
       ],
       "services": {

@@ -1,8 +1,8 @@
 <resources>
     <string name="app_name">SavoraAPP</string>
-    <color name="ic_sabora_background">#4A4A4A</color>
-
+    <string name="Registrarse">Registrarse</string>
     <string name="Registro">Registro</string>
+    <string name="RegistroBTN">Registrate</string>
     <string name="Bnv">Hola! un gusto verte de nuevo.</string>
     <string name="Contra">Contraseña</string>
     <string name="Ej">Ejemplo</string>
@@ -12,6 +12,69 @@
     <string name="Correo">Correo electrónico</string>
     <string name="CorreoEJ">ejemplo123@gmail.com</string>
     <string name="Usuario">Usuario</string>
+    <string name="NTC">No tienes una cuenta?</string>
+    <string name="IN">INGRESAR</string>
+    <string name="REG">REGISTRARSE</string>
+    <string name="TUC">Tienes una cuenta?</string>
+    <string name="IngresoBTN">INGRESAR</string>
+    <string name="EjCC">**********</string>
+
+
+
+    <string name="title_activity_puente">Puente</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="NombresPrincipal"> -- </string>
+    <string name="CorreoPrincipal"> -- </string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+
+
+    <string name="NuevaReserva">Nueva reserva</string>
+    <string name="Reservas">Reservas</string>
+    <string name="MenuDigital">Menú digital</string>
+    <string name="Inventario">Inventario</string>
+    <string name="Reporte">Reportes de venta</string>
+    <string name="CerrarSesion">Cerrar sesión</string>
+
+    <string name="Calendario">Calendario</string>
+    <string name="Fecha">00/00/0000</string>
+    <string name="ClienteNombre">Nombre:</string>
+    <string name="ClienteTelefono">Telefono:</string>
+    <string name="ClienteCorreo">Correo:</string>
+    <string name="Fecha_Hora">Fecha y hora</string>
+    <string name="NumeroPersonas">Numero de personas:</string>
+    <string name="Preferencias">Preferencias</string>
+    <string name="NotasA">Notas adicionales</string>
+    <string name="Estado">Estado</string>
+    <string name="Nueva">ASIGNAR NUEVA CITA</string>
+    <string name="DatC">Datos del cliente</string>
+    <string name="Numero_de_personas">00</string>
+
+    <string name="DetallesC">Detalles de la cita</string>
+    <string name="Preferencia">Guardar consulta</string>
+    <string name="menu_home">NuevaCita</string>
+    <string name="menu_gallery">Reservas</string>
+    <string name="menu_slideshow">MenuDigital</string>
+    <string name="Boton_Cancelar_Cita">CANCELAR CITA</string>
+    <string name="Boton_Guardar_Cita">GUARDAR CITA</string>
+
+    <string name="cita_fecha_format">Fecha: %s</string>
+    <string name="cita_cliente_format">Cliente: %s</string>
+    <string name="cita_telefono_format">Teléfono: %s</string>
+    <string name="cita_correo_format">Correo: %s</string>
+    <string name="cita_personas_format">Personas: %s</string>
+    <string name="cita_preferencias_format">Preferencias: %s</string>
+    <string name="cita_notas_format">Notas: %s</string>
+    <string name="gallery_title">Mis Citas</string>
+    <string name="no_citas_disponibles">Aún no tienes citas registradas.</string>
+
+    <string name="social">-- @elfogondelaabuela --</string>
+    <string name="menu_inicio">Inicio</string>
+    <string name="MIS">Mi restaurante</string>
+
+
 
 
 </resources>

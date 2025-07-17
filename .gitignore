@@ -53,3 +53,4 @@ lint-results-*.xml
 # /.idea/navEditor.xml
 # /.idea/assetWizardSettings.xml
 # (Aunque .idea/ debería cubrir estos, la explicitud no hace daño)
+firebase.json

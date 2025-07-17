@@ -17,131 +17,181 @@
 
         <ImageView
             android:id="@+id/imagen_splashscreen"
-            android:layout_width="215dp"
-            android:layout_height="215dp"
+            android:layout_width="185dp"
+            android:layout_height="185dp"
             android:src="@drawable/asd"
             app:srcCompat="@drawable/asd" />
 
 
         <TextView
-            android:text="@string/Login"
-            android:textSize="30sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="40dp"
             android:layout_marginTop="0dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_gravity="left"
             android:gravity="center"
+            android:text="@string/Login"
             android:textAlignment="center"
-            android:textColor="@color/rojo">
+            android:textColor="@color/rojo"
+            android:textSize="30sp"
+            android:textStyle="bold">
 
         </TextView>
 
         <TextView
-            android:text="@string/Bnv"
-            android:textSize="18sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="left"
+            android:layout_marginStart="40dp"
             android:layout_marginTop="15dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
-            android:layout_gravity="left"
             android:gravity="center"
+            android:text="@string/Bnv"
             android:textAlignment="center"
-            android:textColor="@color/blanco">
+            android:textColor="@color/blanco"
+            android:textSize="18sp">
 
         </TextView>
 
         <TextView
-            android:text="@string/Correo"
-            android:textSize="18sp"
-            android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
             android:layout_gravity="left"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
             android:gravity="center"
+            android:text="@string/Correo"
             android:textAlignment="center"
-            android:textColor="@color/verde">
+            android:textColor="@color/verde"
+            android:textSize="18sp">
 
         </TextView>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginEnd="40dp"
             android:layout_marginStart="40dp"
             android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
             android:textColorHint="@color/blanco">
 
             <EditText
                 android:id="@+id/CorreoEJ"
-                android:hint="@string/CorreoEJ"
-                android:drawableStart="@drawable/icono_correo"
-                android:inputType="textEmailAddress"
-                android:padding="20dp"
-                android:drawablePadding="10dp"
-                android:layout_margin="0dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/dorado">
+                android:layout_margin="0dp"
+                android:drawableStart="@drawable/icono_correo"
+                android:drawablePadding="10dp"
+                android:hint="@string/CorreoEJ"
+                android:inputType="textEmailAddress"
+                android:paddingStart="12dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="12dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/blanco">
 
             </EditText>
 
         </com.google.android.material.textfield.TextInputLayout>
 
         <TextView
-            android:text="@string/Contra"
-            android:textSize="18sp"
-            android:layout_marginTop="10dp"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginStart="40dp"
             android:layout_gravity="left"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
             android:gravity="center"
+            android:text="@string/Contra"
             android:textAlignment="center"
-            android:textColor="@color/verde">
+            android:textColor="@color/verde"
+            android:textSize="18sp">
 
         </TextView>
 
         <com.google.android.material.textfield.TextInputLayout
             android:layout_width="match_parent"
             android:layout_height="50dp"
-            android:layout_marginEnd="40dp"
             android:layout_marginStart="40dp"
             android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
             android:textColorHint="@color/blanco"
-            app:passwordToggleEnabled="true"
             app:hintEnabled="true"
+            app:passwordToggleEnabled="true"
             app:passwordToggleTint="@color/dorado">
 
             <EditText
                 android:id="@+id/EjC"
-                android:hint="@string/EjC"
-                android:drawableStart="@drawable/icono_contrasena"
-                android:inputType="textPassword"
-                android:padding="20dp"
-                android:drawablePadding="10dp"
-                android:layout_margin="0dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:textColor="@color/dorado">
+                android:layout_margin="0dp"
+                android:drawableStart="@drawable/icono_contrasena"
+                android:drawablePadding="10dp"
+                android:hint="@string/EjC"
+                android:inputType="textPassword"
+                android:paddingStart="12dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="12dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/blanco">
 
             </EditText>
 
         </com.google.android.material.textfield.TextInputLayout>
 
-        <TextView
-            android:text="@string/Bnv"
+        <Button
+            android:id="@+id/IN"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="40dp"
+            android:backgroundTint="@color/rojo"
+            android:clickable="true"
+            android:focusable="true"
+            android:text="@string/IN"
+            android:textAlignment="center"
+            android:textColor="@color/blanco"
             android:textSize="18sp"
-            android:layout_marginTop="45dp"
+            app:cornerRadius="5dp">
+
+        </Button>
+
+        <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginStart="40dp"
+            android:layout_marginTop="25dp"
             android:layout_marginEnd="40dp"
+            android:text="@string/NTC"
             android:textAlignment="center"
-            android:textColor="@color/blanco">
+            android:textColor="@color/blanco"
+            android:textSize="18sp">
 
         </TextView>
+
+        <TextView
+            android:id="@+id/RegistroBTN"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="40dp"
+            android:text="@string/RegistroBTN"
+            android:textAlignment="center"
+            android:textColor="@color/dorado"
+            android:textSize="21sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <ImageView
+            android:id="@+id/imagen_logo"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/logo"
+            app:srcCompat="@drawable/logo" />
+
 
     </androidx.appcompat.widget.LinearLayoutCompat>
 

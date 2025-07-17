@@ -1,0 +1,257 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/fondo"
+    tools:context="ui.inicio.InicioFragment">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/imagen_splashscreen"
+            android:layout_width="105dp"
+            android:layout_height="105dp"
+            android:src="@drawable/outline_restaurant"
+            app:srcCompat="@drawable/outline_restaurant"/>
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="0dp"
+            android:gravity="center"
+            android:text="INFORMACIÓN"
+            android:textAlignment="center"
+            android:textColor="@color/rojo"
+            android:textSize="30sp"
+            android:textStyle="bold">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Nombre:"
+            android:textAlignment="center"
+            android:textColor="@color/verde"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
+            android:textColorHint="@color/blanco">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="El Fogón de la Abuela"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="@color/blanco"
+                android:textSize="18sp">
+
+            </TextView>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Ubicación:"
+            android:textAlignment="center"
+            android:textColor="@color/verde"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
+            android:textColorHint="@color/blanco">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Carrera 7 # 68-45, Chapinero Alto, Bogotá, Colombia"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/blanco"
+                android:textSize="18sp">
+
+            </TextView>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Número de mesas:"
+            android:textAlignment="center"
+            android:textColor="@color/verde"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
+            android:textColorHint="@color/blanco">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25 mesas (Cap. Máx. de 80 personas) y una barra con 10 puestos"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/blanco"
+                android:textSize="18sp">
+
+            </TextView>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Horarios de Servicio:"
+            android:textAlignment="center"
+            android:textColor="@color/verde"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
+            android:textColorHint="@color/blanco">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lunes a Jueves: 12:00 PM - 11:00 PM"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="@color/blanco"
+                android:textSize="18sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Viernes y Sábados: 12:00 PM - 1:00 AM "
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="@color/blanco"
+                android:textSize="18sp">
+
+            </TextView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Domingos: 12:00 PM - 9:00 PM"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="@color/blanco"
+                android:textSize="18sp">
+
+            </TextView>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Redes Sociales:"
+            android:textAlignment="center"
+            android:textColor="@color/verde"
+            android:textSize="18sp">
+
+        </TextView>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:layout_marginStart="40dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="40dp"
+            android:textColorHint="@color/blanco">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/social"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:textColor="@color/blanco"
+                android:textSize="18sp">
+
+            </TextView>
+
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <ImageView
+            android:id="@+id/imagen_logo"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/logo"
+            app:srcCompat="@drawable/logo" />
+
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</RelativeLayout>

@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.home.HomeFragment"
+    android:background="@color/fondo">
+
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="15dp">
+
+        <TextView
+            android:layout_gravity="center"
+            android:text="@string/Nueva"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:textColor="@color/rojo">
+
+        </TextView>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp">
+
+            <Button
+                android:id="@+id/Calendario"
+                android:text="@string/Calendario"
+                app:icon="@drawable/icono_calendario"
+                android:backgroundTint="@color/rojo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="10dp"
+                app:cornerRadius="5dp">
+
+            </Button>
+
+            <TextView
+                android:id="@+id/Fecha"
+                android:text="@string/Fecha"
+                android:textSize="17sp"
+                android:layout_marginStart="15dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="0dp"
+                android:layout_marginEnd="30dp"
+                android:textColor="@color/blanco">
+
+            </TextView>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <TextView
+            android:text="@string/DatC"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:textColor="@color/rojo">
+
+        </TextView>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginEnd="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:textColorHint="@color/verde"
+            android:hint="@string/ClienteNombre">
+
+        </TextView>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:textSize="18sp"
+                android:paddingStart="2dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="12dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/blanco"
+                android:textColorHint="@color/blanco"
+                android:hint="@string/Numero_de_personas"
+                android:id="@+id/ClienteNombre">
+
+            </EditText>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginEnd="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColorHint="@color/verde"
+                android:hint="@string/ClienteTelefono">
+
+            </TextView>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:textSize="18sp"
+                android:paddingStart="2dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="12dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/blanco"
+                android:textColorHint="@color/blanco"
+                android:hint="@string/Numero_de_personas"
+                android:id="@+id/ClienteTelefono">
+
+            </EditText>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:layout_marginEnd="30dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColorHint="@color/verde"
+                android:hint="@string/ClienteCorreo">
+
+            </TextView>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:textSize="18sp"
+                android:paddingStart="2dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="12dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/blanco"
+                android:textColorHint="@color/blanco"
+                android:hint="@string/Numero_de_personas"
+                android:id="@+id/ClienteCorreo">
+
+            </EditText>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <TextView
+            android:text="@string/DetallesC"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="30dp"
+            android:textColor="@color/rojo">
+
+        </TextView>
+
+        <androidx.appcompat.widget.LinearLayoutCompat
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:textColorHint="@color/verde"
+                android:hint="@string/NumeroPersonas">
+
+            </TextView>
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:layout_marginEnd="30dp"
+                android:textSize="18sp"
+                android:paddingStart="2dp"
+                android:paddingTop="10dp"
+                android:paddingEnd="12dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/blanco"
+                android:textColorHint="@color/blanco"
+                android:hint="@string/Numero_de_personas"
+                android:id="@+id/NumeroPersonas">
+
+            </EditText>
+
+        </androidx.appcompat.widget.LinearLayoutCompat>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:textSize="16sp"
+            android:minHeight="60dp"
+            android:textColor="@color/blanco"
+            android:textColorHint="#BABABA"
+            android:hint="@string/Preferencias"
+            android:backgroundTint="@color/verde"
+            android:gravity="start"
+            android:id="@+id/Preferencias">
+
+        </EditText>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:textSize="16sp"
+            android:minHeight="100dp"
+            android:textColor="@color/blanco"
+            android:textColorHint="#BABABA"
+            android:hint="@string/NotasA"
+            android:gravity="start"
+            android:backgroundTint="@color/verde"
+            android:id="@+id/NotasA">
+
+        </EditText>
+
+        <Button
+            android:id="@+id/Boton_Guardar_Cita"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginEnd="30dp"
+            android:text="@string/Boton_Guardar_Cita"
+            android:backgroundTint="@color/rojo"
+            app:cornerRadius="5dp">
+
+        </Button>
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/imagen_logo"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="10dp"
+            android:src="@drawable/logo"
+            app:srcCompat="@drawable/logo" />
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+
+</ScrollView>
